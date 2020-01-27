@@ -26,13 +26,13 @@ app.use(express.json());
 // app.use(express.static(__dirname + "./public"));
 
 // express routings
-// let { articles, api } = require("./src/controllers/index");
-// app.use("/articles", articles);
-// app.use("/api", api);
+let { articles, api } = require("./src/controllers/index");
+app.use("/articles", articles);
+app.use("/api", api);
 
-// app.use("/", (req, res) => {
-//     res.redirect("/index")
-// });
+app.use("/", (req, res) => {
+    res.redirect("/index")
+});
 
 // Connect to the Mongo DB
 // If deployed, use the deployed database, otherwise use the local BulldawgArticles database
