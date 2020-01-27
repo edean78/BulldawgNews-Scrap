@@ -1,0 +1,25 @@
+{
+  "name": "bulldawgnews-scrap",
+  "version": "1.0.0",
+  "description": "This application will display University of Georgia Sports News",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edean78/BulldawgNews-Scrap.git"
+  },
+  "author": "Ed Dean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edean78/BulldawgNews-Scrap/issues"
+  },
+  "homepage": "https://github.com/edean78/BulldawgNews-Scrap#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10",
+    "morgan": "^1.9.1"
+  }
+}
