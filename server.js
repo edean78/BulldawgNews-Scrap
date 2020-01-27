@@ -3,12 +3,17 @@ require("dotenv").config();
 const express = require("express");
 const logger = require('morgan');
 const mongoose = require("mongoose");
+const expressLayouts = require("express-ejs-layouts");
 
 // Assign a port
 const PORT = process.env.PORT || 3000;
 
 // Initialize Express
 const app = express();
+
+// EJS
+app.use(expressLayouts);
+app.use("view engine", "ejs");
 
 // Use morgan logger for logging requests
 app.use(logger("dev"));

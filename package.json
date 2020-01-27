@@ -18,7 +18,9 @@
   "homepage": "https://github.com/edean78/BulldawgNews-Scrap#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
     "mongoose": "^5.8.10",
     "morgan": "^1.9.1"
   }
